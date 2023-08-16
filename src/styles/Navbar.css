@@ -1,0 +1,138 @@
+.navbar::before
+{
+     opacity:0.2;
+}
+/*.navbar
+{
+    height:100%;
+    height: 60px;
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+font-family: 'Reggae One', cursive;
+   
+} 
+.navbar .leftSide {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+  }
+  
+  .navbar .leftSide img {
+    width: 60px;
+  }
+  
+  .navbar .rightSide {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+  }
+  .navbar a:hover {
+    color: red;
+   
+  }
+  .navbar .rightSide button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .navbar .rightSide svg {
+    font-size: 40px;
+  }
+.navbar img{
+    width: 4px;
+}
+
+
+.navbar a
+{
+     text-decoration:none;
+    padding:2px 10px;
+    list-style:none;
+    color:white;
+    margin:10px;
+}
+.navbar  a:hover
+{
+    color:red;
+}
+.navbar #open {
+    padding-left: 0px;
+  }
+  .navbar #open img {
+    display: none;
+  }
+  
+  .navbar #close img {
+    display: inherit;
+  }
+  
+  .navbar #open .hiddenLinks {
+    display: inherit;
+    margin-left: 30px;
+  }
+  
+  .navbar #close .hiddenLinks {
+    display: none;
+  }
+  
+  .navbar #open a {
+    width: 70px;
+    margin: 5px;
+  }*/
+  .navbar
+{
+    height:53px;
+     background-color:black; 
+    position:sticky;
+    display:flex;
+    /* overflow:auto; */
+font-family: 'Reggae One', cursive;
+   
+} 
+.navbar img
+{ 
+    display:absolute;
+    /* padding-top:5pxpx; */
+    /* margin-bottom:10px; */
+    /* padding-bottom:10px; */
+    margin:5px;
+    height:50px;
+    width:auto;
+}
+.navbar ul
+{
+    display:flex;
+margin:5px;  
+padding-left:10px;  
+        
+}
+.navbar li{
+    margin:10px 5px;
+    list-style:none;
+}
+.navbar  a
+{
+     text-decoration:none;
+    padding:2px 10px;
+    list-style:none;
+    color:white;
+    margin:10px;
+    font-size: 20px;
+}
+.navbar  a:hover
+{
+    color:red;
+}
