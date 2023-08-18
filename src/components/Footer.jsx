@@ -1,7 +1,7 @@
 import React from "react";
 import {FaTwitter, FaFacebook,FaInstagram,FaLinkedin} from "react-icons/fa";
 import "../styles/Footer.css";
-import styled from "@emotion/styled";
+// import styled from "@emotion/styled";
 const Footer=()=> {
   return (
     <>
